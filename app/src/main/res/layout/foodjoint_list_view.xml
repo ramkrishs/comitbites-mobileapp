@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    card_view:cardCornerRadius="1dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/foodJointImage"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:src="@drawable/create"
+            android:scaleType="fitCenter"
+            android:layout_margin="5dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="3dp">
+            <TextView
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:id="@+id/foodJointTitle"
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_gravity="left"
+                android:text="@string/app_name" />
+            <View
+                android:id="@+id/space"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/img_row_delete"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_margin="7dp"
+                android:contentDescription="Estimated WaitTime"
+                android:layout_gravity="right"
+                android:src="@drawable/ic_timer"
+                android:tint="@color/grey_500"/>
+            <TextView
+                android:id="@+id/foodJointWaitTime"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="right"
+                android:layout_marginLeft="1dp"
+                android:text="@string/wait" />
+            <TextView
+                android:id="@+id/waitTimeText"
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="right"
+                android:layout_marginLeft="1dp"
+                android:text="min" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>

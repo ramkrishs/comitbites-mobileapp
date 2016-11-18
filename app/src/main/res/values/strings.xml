@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">cometbites</string>
+    <string name="wait">10</string>
+    <string name="Subway">Subway Club</string>
+    <string name="currency">$</string>
+    <string name="price">4.99</string>
+</resources>
