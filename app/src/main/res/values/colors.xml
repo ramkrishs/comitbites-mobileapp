@@ -4,6 +4,13 @@
     <color name="colorPrimaryDark">#ffa000</color>
     <color name="colorAccent">#8bc34a</color>
 
+
+    <color name="appDark">#47503B</color>
+    <color name="appLessDark">#949B82</color>
+    <color name="appLight">#D7D7D3</color>
+    <color name="appOther">#EED694</color>
+    <color name="appBlue">#88C6C8</color>
+
     <!-- Grey Color Shades -->
     <color name="grey_25">#FDFDFD</color>
     <color name="grey_50">#FAFAFA</color>
@@ -15,4 +22,6 @@
     <color name="grey_600">#757575</color>
     <color name="grey_700">#616161</color>
     <color name="grey_800">#424242</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
 </resources>

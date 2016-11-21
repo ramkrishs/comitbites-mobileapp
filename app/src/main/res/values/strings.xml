@@ -4,4 +4,10 @@
     <string name="Subway">Subway Club</string>
     <string name="currency">$</string>
     <string name="price">4.99</string>
+    <string name="login">login</string>
+    <string name="items">items</string>
+    <string name="signup">signup</string>
+    <string name="signupStep2">Verify Phone</string>
+    <string name="signupStep3">Add Payment</string>
+    <string name="prompt_cvv">CVV</string>
 </resources>

@@ -19,10 +19,14 @@ public class BrowseFoodJointActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_browsefoodjoint);
 
+        Intent intent = new Intent(this, LoginActivity.class);
+        startActivity(intent);
+
         setupRecyclerView();
     }
 
     private void setupRecyclerView() {
+
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         BrowseFoodJointAdapter adapter = new BrowseFoodJointAdapter(this, FoodJoint.getData());
         recyclerView.setAdapter(adapter);

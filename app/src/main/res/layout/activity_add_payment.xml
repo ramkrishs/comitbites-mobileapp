@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+        <ImageView android:src="@drawable/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_marginBottom="2dp"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginBottom="3dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/signupStep3"
+            android:textColor="@color/white"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+
+        <!-- Add Card  Number Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/input_card_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:hint="Card Number" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Add CVV  Number -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/input_cvv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_cvv"
+                android:inputType="numberPassword"
+                android:maxLines="1" />
+        </android.support.design.widget.TextInputLayout>
+        <!-- Add CVV  Number -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:orientation="horizontal">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/input_expmonth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Expiry Month"
+                android:inputType="numberPassword"
+                android:maxLines="1" />
+            </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:orientation="horizontal">
+
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/input_exp_year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Expiry Month"
+                android:inputType="numberPassword"
+                android:maxLines="1" />
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+
+        <!-- Signup Button -->
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_add_payment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:text="Add Payment"/>
+
+
+
+    </LinearLayout>
+</ScrollView>
